@@ -1,0 +1,22 @@
+body {
+    background-color:cornflowerblue;
+    margin: auto;
+    padding: 20px;
+}
+    
+div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    color: rgb(141, 34, 1);
+    font-size: 70px;
+}
