@@ -3,20 +3,41 @@ body {
     margin: auto;
     padding: 20px;
 }
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     
-div {
+#div {
+    margin: 10;
+    padding: 150px 40px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
-h1 {
-    font-size: 80px;
-}
-
-p {
+#div #paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(141, 34, 1);
     font-size: 70px;
+}
+
+#div #img {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
